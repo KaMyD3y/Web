@@ -1,0 +1,131 @@
+body {
+    color:black;
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 10%;
+    height: 1000px;
+    background-color: lightgray;
+}
+h1 {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    text-align: center;
+}
+.div{
+    position: absolute;
+    border: 1px solid red;
+    margin-top: 100px;
+    margin-left: 30px;
+    margin-right: 84em;
+    height: 500px;
+    border-radius: 10%;
+    background-color: lightgreen;
+    box-shadow: 5px 5px 5px 5px red;
+}
+.div>p{
+    position: relative;
+    margin-top: 100px;
+    background-color: yellow;
+    border-radius: 10%;
+}
+.legend {
+    position: absolute;
+    background-color: none;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    color: white;
+    margin-top: 6.9em;
+    margin-left: 4em;
+    z-index: 1;
+}
+.div1 {
+    position: absolute;
+    border: 2px solid gray;
+    border-radius: 10%;
+    margin-left: 25em;
+    margin-right: 60em;
+    margin-top: 100px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px gray;
+    background-color: gray;
+}
+.div1>p{
+    position: relative;
+    margin-top: 100px;
+    background-color: lightcoral;
+    border-radius: 12%;
+    
+}
+.legend1 {
+    position: absolute;
+    background-color: none;
+    margin-top: 6.9em;
+    margin-left: 32em;
+    z-index: 1;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    color: white;
+}
+.div2{
+    position: absolute;
+    border: 2px solid blue;
+    border-radius: 10%;
+    margin-left: 50em;
+    margin-right: 35em;
+    margin-top: 100px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px blue;
+    background-color: blue;
+
+}
+.div2>p{
+    border-radius: 10%;
+    position: relative;
+    margin-top: 100px;
+    background-color: pink;
+}
+.legend2 {
+    position: absolute;
+    background-color: none;
+    margin-top: 6.9em;
+    margin-left: 62em;
+    z-index: 1;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    color: white;
+}
+.div3{
+    position: absolute;
+    border: 2px solid yellow;
+    border-radius: 10%;
+    margin-left: 75em;
+    margin-right: 10em;
+    margin-top: 100px;
+    height: 500px;
+    box-shadow: 5px 5px 5px 5px yellow;
+    background-color: yellow;
+
+}
+.div3>p{
+    border-radius: 10%;
+    position: relative;
+    margin-top: 100px;
+    background-color: pink;
+}
+.legend3 {
+    position: absolute;
+    background-color: none;
+    margin-top: 6.9em;
+    margin-left: 92em;
+    z-index: 1;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+    color: white;
+}

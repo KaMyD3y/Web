@@ -1,0 +1,30 @@
+body {
+    background-color: green;
+    border: 5px solid red;
+    margin-left: 100px;
+    margin-right: 40em;
+    height: 50em;
+
+    
+}
+.img {
+    margin: 100px 100px 100px 100px;
+    border-radius: 100px 20px 100px 10px;
+    border: 3px solid black;
+    display: block;
+}
+.img1 {
+    display: flex;
+    border: 5px solid yellow;
+    margin-inline-start: 35em;
+    margin-top: -17em;
+    border-radius: 20px 30px 40px 100px;
+    block-size: 170px;
+}
+.img2 {
+    display: flex;
+    margin-top: 15em;
+    margin-left: 100px;
+    border-radius: 20px 100px 20px 90px;
+    border: 5px dotted red;
+}

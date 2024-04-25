@@ -1,0 +1,27 @@
+.body {
+    color: chartreuse;
+    background-color:cornflowerblue;
+}
+.list ul {
+    list-style: none;
+}
+.list ul li::before {
+    content: "\1f600";
+}
+.list ol {
+    list-style: none;
+}
+.list ol ::before {
+    content: "\1f595";
+}
+.image ul {
+    list-style: none;
+}
+.image ul li {
+    margin-bottom: 10px;
+}
+.image ul li img {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+}

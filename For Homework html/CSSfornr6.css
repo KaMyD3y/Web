@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    color: black;
+    background-color: blueviolet;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 370px;
+    width: 50%;
+}
+th,td{
+    padding: 10px;
+    border:1px solid black  
+}
+td:first-child{
+    color: red;
+}
+td:nth-child(2){
+    background-color: red;
+}
+td:nth-child(3){
+    background-color: #7a1a1a;
+}
+td:last-child{
+    background-color: rgb(230,125,122);
+}
+.tr td:first-child{
+    color: yellow;
+}
+.tr td:nth-child(2){
+    background-color: yellow;
+}
+.tr td:nth-child(3) {
+    background-color: #ebe30e;
+}
+.tr td:nth-child(4) {
+    background-color: rgb(181, 184, 37);
+}
+.tr1 td:nth-child(1){
+    color: blue;
+}
+.tr1 td:nth-child(2){
+    background-color: blue;
+}
+.tr1 td:nth-child(3){
+    background-color: #2534b8;
+}
+.tr1 td:nth-child(4){
+    background-color: rgb(83, 96, 212);
+}
+.tr2 td:nth-child(1){
+    color: green;
+}
+.tr2 td:nth-child(2){
+    background-color: green;
+}
+.tr2 td:nth-child(3){
+    background-color: #20e627;
+}
+.tr2 td:nth-child(4){
+    background-color: rgb(78, 242, 7);
+}
+.tr3 td:nth-child(1) {
+    color: white;
+}
+.tr3 td:nth-child(2) {
+    background-color: white;
+}
+.tr3 td:nth-child(3) {
+    background-color: #f2f2f2;
+}
+.tr3 td:nth-child(4) {
+    background-color: rgb(191, 191, 191);
+}

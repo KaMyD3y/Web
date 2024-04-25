@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Mihail">
+        <meta name="keywords" content="HTML, META, field ">
+        <title>Fields....</title>
+        <style>
+            .form {
+                width: 560px;
+                color: blue
+            }
+            .legend {
+                color: white;
+                border: 2px solid green ;
+            
+            }
+            .input {
+                color: #930;
+                border-radius: 5px;
+                border-color: blue; 
+                background-color: aqua;      
+             }
+            .fieldset {
+                border-color:white ;
+                border-width: 5px;
+                border-radius: red;
+                background-color: blue;    
+            }
+            .top {
+                background-color: blue;
+                height: 530px;
+                width: 100px;
+                border-color: white;
+                border-width: 5px;
+            }
+            .label {
+                color: aquamarine;
+            }
+            .fortuna { 
+                width: 500px;
+                height: 100px;
+            }
+            h1 {
+                color: yellow;
+            }
+
+        </style>
+    </head>
+    <body bgcolor="black">
+        <center>
+            <h1>Hello everyone!</h1>
+        </center>
+            <fieldset class="top fieldset">
+                <form class="form" method="post" autocomplete="off" name="personal information" accept-charset="utf-8">
+                    <fieldset class="fieldset">
+                        <legend class="legend">Personal information</legend>
+                        <div>
+                            <label class="label" for="name">First Name:</label>
+                            <input class="input" type="text" id="name" placeholder="Write your name" required><br>
+                            <label class="label" for="name1">Last Name:</label>
+                            <input class="input" type="text" id="name1" placeholder="Write you last name" required><br>
+                            <label class="label" for="password">Password:</label> 
+                            <input class="input" type="password" id="password" size="20" minlength="8" placeholder="Password" required><br>
+                        </div>
+                    </fieldset>
+                </form>
+                <form action="from" method="post" autocomplete="off" name="course information">
+                    <fieldset class="fieldset">
+                        <legend class="legend">Course information</legend>
+                        <label class="label" for="question" >Course:</label> <br>
+                        <input class="input" type="radio" id="question" name="vote" value="webDesign"> Web Design <br>
+                        <input class="input" type="radio" id="question" name="vote" value="sql"> SQL <br>
+                        <input class="input" type="radio" id="question" name="vote" value="css"> CSS <br>
+                        <label class="label" for="scroll">Career Goal:</label><br>
+                        <select name="choice" id="scroll">
+                            <optgroup label="Learn">
+                                <option value="Python">Python</option>
+                                <option value="HTML">HTML</option>
+                                <option value="CSS">CSS</option>
+                                <option value="JAVASCRIPT">JS</option>
+                            </optgroup>
+                            <optgroup label="I KNOW">
+                                <option value="Python">Python</option>
+                                <option value="HTML">HTML SO so</option>
+                            </optgroup>
+                        </select> <br>
+                        <label class="label" for="skills">Skills!</label><br>
+                        <input type="checkbox" id="skills" name="choice" value="python"> Python 
+                        <input type="checkbox" id="skills" name="choice" value="html"> HTML <br>
+                        <input type="checkbox" id="skills" name="choice" value="css"> CSS
+                        <input type="checkbox" id="skills" name="choice" value="javascript"> JAVASCRIPT <br>
+                        <input type="checkbox" id="skills" name="choice" value="react"> REACT 
+                        <input type="checkbox" id="skills" name="choice" value="django"> DJANGO <br>
+                        <label class="label" for="photo">Foto:</label><br>
+                        <input type="file" name="file" id="photo" accept=".jpg,.png" multiple><br>
+                        <label class="label" for="comment">Describe any aditional skills you have </label><br>
+                        <textarea class="fortuna" name="comment" id="comment" placeholder="For Comment"></textarea><br>
+                        <input type="reset" value="Reset">
+                    </fieldset>
+                </form> 
+            </fieldset>
+    </body>
+</html>

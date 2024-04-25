@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+.div0 {
+    margin-left: 30em;
+    box-shadow: 20px 20px 20px 20px  gray;
+    background-color: gray;
+    width: 50em;
+    height: 80em;
+    border-radius: 10%;
+    
+}
+h1 {
+    margin-left: 10em; 
+    text-shadow: 2px 2px 5px red;
+    
+}
+span{
+    margin-left: 17em;
+    color: white;
+    text-shadow: 2px 2px 5px blue;
+}
+p {
+    margin-left: 23em;
+    text-shadow: 2px 2px 5px green;
+}
+div {
+    position: absolute;
+}
+
+.div img{
+    box-shadow: 2px 3px 20px 7px lightgoldenrodyellow , 5px 5px 5px 5px lightgoldenrodyellow , 10px 10px 10px 10px yellow;
+    margin-right: 3em;
+    margin-left: 4em;
+    margin-top: 2em;
+    border-radius: 5%;
+
+}
+.div2 img {
+    box-shadow: 2px 3px 20px 10px lightpink,5px 5px 5px 5px lightpink ,10px 10px 10px 10px rgb(185, 48, 71);
+    border-radius: 5%;
+    margin-left: 19em;
+    margin-top: 2em;
+}
+.div3 img {
+    box-shadow: 2px 3px 20px 10px lightblue , 5px 5px 5px 5px rgb(9, 173, 227) , 10px 10px 10px 10px blue;
+    border-radius: 5%;
+    margin-left: 34em;
+    margin-top: 2em;
+}
+.div4 img {
+    box-shadow: 2px 3px 20px 10px lightslategray , 5px 5px 5px 5px lightslategray , 10px 10px 10px 10px lightslategray;
+    border-radius: 5%;
+    margin-left: 4em;
+    margin-top: 23em;
+}
+.div5 img {
+    box-shadow: 2px 3px 20px 10px lightcyan , 5px 5px 5px 5px lightcyan , 10px 10px 10px 10px lightcyan;
+    border-radius: 5%;
+    margin-left: 19em;
+    margin-top: 23em;
+
+}
+.div6 img {
+    box-shadow: 2px 3px 20px 10px lightcoral , 5px 5px 5px 5px lightcoral , 10px 10px 10px 10px lightcoral;
+    border-radius: 5%;
+    margin-left: 34em;
+    margin-top: 23em;
+}
+.div7 img {
+    box-shadow: 2px 3px 20px 10px lightcyan , 5px 5px 5px 5px lightcyan , 10px 10px 10px 10px lightcyan;
+    border-radius: 5%;
+    margin-left: 4em;
+    margin-top: 45em;
+}
+.div8 img {
+    box-shadow: 2px 3px 20px 10px lightcyan , 5px 5px 5px 5px lightcyan , 10px 10px 10px 10px lightcyan;
+    border-radius: 5%;
+    margin-left: 19em;
+    margin-top: 45em;
+}
+.div9 img {
+    box-shadow: 2px 3px 20px 10px lightcoral , 5px 5px 5px 5px lightcoral , 10px 10px 10px 10px lightcoral;
+    border-radius: 5%;
+    margin-left: 34em;
+    margin-top: 45em;
+}

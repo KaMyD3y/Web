@@ -1,0 +1,25 @@
+h1 {
+    color: lightblue;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em green, 0 0 0.2em yellow;
+}
+.header {
+    position: relative;
+    border: 5px solid gray;
+}
+.div {
+    border: 5px solid gray;
+    width: 800px;
+    height: 150px;
+}
+.div1 form {
+    position: absolute;
+    border: 5px solid gray;
+    margin-left: 70em;
+    margin-top: -10em;
+}
+.footer {
+    text-align: center;
+    padding: 50px;
+    background-color: lightskyblue;
+}

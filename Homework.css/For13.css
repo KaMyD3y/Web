@@ -1,0 +1,48 @@
+body {
+    border: 5px solid black;
+    height: 1000px;
+}
+header{
+    border: 3px solid yellow;
+    padding: 20px;
+    background: black;
+}
+.img {
+    position: absolute;
+    margin-left: 7em;
+}
+.nav>a {
+    border: 2px solid yellow;
+    margin-left: 87em;
+    padding: 10px;
+    margin-top: 5px;
+}
+.nav>a:hover {
+    background-color: yellow;
+    color: black;
+}
+.a1:focus,.a1:link,.a1:visited {
+    display: block;
+    background-color: green;
+    text-align: center;
+}
+.nav>a:active {
+    background-color: red;
+    color: white;
+}
+span {
+    position: absolute;
+    border: 5px solid Black;
+    width: 30em;
+    height: 41em;
+}
+main {
+    border: 5px solid black;
+    margin-left: 32em;
+    padding: 20em;
+}
+footer {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 4em;
+}

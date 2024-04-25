@@ -1,0 +1,32 @@
+.h1 {
+    padding: 1em;
+}
+body {
+    background-color: yellow;
+}
+.h1 {
+    border: 5px dotted red;
+    margin-top: 20px;
+    margin-right: 45em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    border-radius: 40%;
+}
+
+.h2 {
+    margin-left: 400px;
+    margin-top: -130px;
+    border: 10px double blue ;
+    margin-right: 35em;
+    padding: 0,5em;
+    border-radius: 10px;
+    margin-left: 13em;
+}
+.h3 {
+    margin-top: 100px;
+    margin-left: 30px;
+    border: 10px solid green;
+    margin-right: 43em;
+    border-radius: 10px;
+    padding: 2em;
+}
