@@ -11,7 +11,9 @@
     display: grid;
     place-items: center;
     background-color: green;
-    grid-area: 1 / 1 / 2 / 3  ; }
+    grid-area: 1 / 1 / 2 / 3  ; 
+    border-radius: 100%; 
+}
 .div2 {
     display: grid;
     place-items: center;
