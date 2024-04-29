@@ -108,3 +108,8 @@
 >**14 to**
 >[Homework](https://github.com/KaMyD3y/WebFrontend/blob/Kamydzy/Homewrk.html/For14.html)
 >[CSS](https://github.com/KaMyD3y/WebFrontend/blob/Kamydzy/Homework.css/For14.css)
+
+21 **to do! in folder (Homewrk html)**
+>**15 todo!**
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15.css)
