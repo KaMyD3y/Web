@@ -119,3 +119,5 @@
 >[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-1.html)
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-1.css)
 >
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-2.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-2.css)
