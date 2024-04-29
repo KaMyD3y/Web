@@ -34,15 +34,23 @@ span {
     position: absolute;
     border: 5px solid Black;
     width: 30em;
-    height: 41em;
+    height: 41.2em;
+}
+ul {
+    position: absolute;
 }
 main {
     border: 5px solid black;
-    margin-left: 32em;
-    padding: 20em;
+    margin-left: 30.5em;
+    text-align: center;
+    height: 41.2em;
+    width: 70em ;
+    position: absolute;
+    margin-bottom: auto;
 }
 footer {
     text-align: center;
     background-color: lightskyblue;
-    padding: 4em;
+    padding:4%;
+    margin-top: 41.7em;
 }
