@@ -2,7 +2,11 @@ body {
     background-color: white;
 }
 .conteiner {
+<<<<<<< HEAD
     background-color: aquamarine;
+=======
+    background-color: lightgrey;
+>>>>>>> 412921b699beb7d6641515cb1ad461b0e44e3a57
     border: 2px solid lightskyblue;
     height: 100em;
     width: auto;
@@ -25,6 +29,7 @@ span {
     display: flex;
     justify-content: space-around;
     margin-top: 10em;
+<<<<<<< HEAD
 }
 .firstchild :nth-child(1){
     box-shadow: -10px -10px 15px yellow ;
@@ -33,15 +38,63 @@ span {
     box-shadow: -10px -10px 15px pink;
 }
 .firstchild :nth-child(3){
+=======
+    width: 97%;
+    height: 18%;
+}
+.firstchild:hover :nth-child(1){
+    box-shadow: -10px -10px 15px yellow ;
+    margin-left: 2%;
+}
+.firstchild:hover :nth-child(2){
+    box-shadow: -10px -10px 15px pink;
+}
+.firstchild:hover :nth-child(3){
+>>>>>>> 412921b699beb7d6641515cb1ad461b0e44e3a57
     box-shadow: -10px -10px 15px lightblue;
 }
 .secondchild {
     display: flex;
     justify-content: space-around;
     margin-top: 10em;
+<<<<<<< HEAD
+=======
+    width: 97%;
+    height: 18%;
+}
+.secondchild :first-child{
+    width: 20.1%;
+    height: 100%;
+}
+.secondchild:hover :nth-child(1){
+    box-shadow: -10px -10px 15px rgb(127, 107, 107) ;
+    margin-left: 2%;
+    background-color: white;
+}
+.secondchild:hover :nth-child(2){
+    box-shadow: -10px -10px 15px lightblue;
+}
+.secondchild:hover :nth-child(3){
+    box-shadow: -10px -10px 15px lightcoral;
+>>>>>>> 412921b699beb7d6641515cb1ad461b0e44e3a57
 }
 .thirtychild {
     display: flex;
     justify-content: space-around;
     margin-top: 10em;
+<<<<<<< HEAD
+=======
+    width: 97%;
+    height: 18%;
+}
+.thirtychild:hover :nth-child(1){
+    box-shadow: -10px -10px 15px lightblue ;
+    margin-left: 2%;
+}
+.thirtychild:hover :nth-child(2){
+    box-shadow: -10px -10px 15px lightblue;
+}
+.thirtychild:hover :nth-child(3){
+    box-shadow: -10px -10px 15px lightpink;
+>>>>>>> 412921b699beb7d6641515cb1ad461b0e44e3a57
 }
