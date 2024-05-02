@@ -53,13 +53,8 @@
 }
 .div14 {
     background-color:darkgreen;
+    grid-area: 5 / 1 / 6 / 4 ;
 }
 .div15 {
     background-color: cyan;
-}
-.div16 {
-    background-color: orange;
-}
-.div17 {
-    background-color: red;
 }
