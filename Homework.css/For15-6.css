@@ -1,14 +1,13 @@
 .container {
     display: grid; 
     grid-template-columns: repeat(2 ,1fr);
-    grid-template-rows: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
 }
-.box {
-    display: grid;
+.box7 {
     grid-template-columns: repeat(2 ,1fr);
     grid-template-rows: repeat(2 , 1fr);
-    border: 5px solid gold;
-
+    display: grid;
+    height: 10vw;
 }
 .box1 {
     background-color: aqua;
@@ -26,8 +25,9 @@
 }
 .box5 {
     background-color: blueviolet;
+    grid-area: 2 / 1 / 2 / 2 ;
 }
 .box6 {
     background-color: brown;
-
+    grid-area: 2 / 2 / 3 / 3;
 }
