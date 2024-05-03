@@ -8,6 +8,8 @@
     grid-template-rows: repeat(2 , 1fr);
     display: grid;
     height: 10vw;
+    padding: 1vw;
+    background-color: greenyellow;
 }
 .box1 {
     background-color: aqua;
