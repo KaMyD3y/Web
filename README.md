@@ -112,6 +112,7 @@
 
 21 **to do! in folder (Homewrk html)**
 >**15 todo!**
+>**GRID**
 >
 >[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15.html)
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15.css)
@@ -130,3 +131,6 @@
 >
 >[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-5.html)
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-5.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-6.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-6.css)
