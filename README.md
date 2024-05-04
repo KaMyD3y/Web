@@ -140,3 +140,10 @@
 >
 >[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-8.html)
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-8.css)
+
+22 **to do! in folder(Homework..Html and css)**
+>**16 To do!**
+>**Calculator**
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For16.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For16.css)
