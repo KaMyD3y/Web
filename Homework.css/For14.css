@@ -29,7 +29,7 @@ span {
     height: 18%;
 }
 .firstchild:hover :nth-child(1){
-    box-shadow: -10px -10px 15px yellow ;
+    box-shadow: -10px -10px 15px 5px yellow ;
     margin-left: 2%;
 }
 .firstchild:hover :nth-child(2){
