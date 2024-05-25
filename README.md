@@ -147,3 +147,9 @@
 >
 >[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For16.html)
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For16.css)
+
+23**JavaScript**
+>**Test alert, window, console,document**
+>
+>[Html](https://github.com/KaMyD3y/Web/blob/main/Html-Js/index.html)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/Homework.js/ConsoleNr1.js),(https://github.com/KaMyD3y/Web/blob/main/Homework.js/Proprietatilewindow.js)
