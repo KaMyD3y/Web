@@ -54,4 +54,5 @@ console.log(window.top);//o referinta la fereastra de sus in ierarhia cadrelor!
 console.log(window.trustedTypes);//ofera acces la Api-ul pentru protectia impotriva atacurilor XSS
 console.log(window.visualViewport);//ofera acces la APi-ul pentru a obtine informatii despre viewport-ul vizual!
 console.log(window.window);//o referinta la fereastra curenta (acelas ca si self!)
-
+console.log(window.alert("hello"));//oo alerta!
+console.log(window.confirm("Da sau nu"));//o confirmare
