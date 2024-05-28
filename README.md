@@ -154,3 +154,4 @@
 >[Html](https://github.com/KaMyD3y/Web/blob/main/Html-Js/index.html)
 >[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/ConsoleNr1.js)
 >[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/Proprietatilewindow.js)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/Document.js)
