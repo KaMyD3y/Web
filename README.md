@@ -155,3 +155,9 @@
 >[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/ConsoleNr1.js)
 >[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/Proprietatilewindow.js)
 >[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/Document.js)
+
+24**JavaScript**
+>**Works converts F and C**
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/JS.html)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/Homework.js)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/JS.css)
