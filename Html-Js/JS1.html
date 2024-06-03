@@ -38,10 +38,10 @@
         let distanceToMarsInMiles = distanceToMars * milesPerKilometer;
         let distanceToMoonInMiles = distanceToTheMoon * milesPerKilometer;
 
-        document.getElementById('result').innerHTML = 'Obiectul: ' + objectName + '<br>' +
-        'Timpul pina la Mars: ' + daysToMars + 'Zile<br>' + 'Timpul pina la luna: ' +
-        daysToMoon + 'Zile <br>' + 'Distance to Mars: ' + distanceToMarsInMiles + 'Mile<br>' +
-        'distance To Moon: ' + distanceToMoonInMiles + 'Mile'
+        document.getElementById('result').innerHTML = 'Obiectul: ' +  typeof  objectName +' ' + objectName + '<br>' +
+        'Timpul pina la Mars: ' + typeof daysToMars+ ' ' + daysToMars + ' Zile<br>' + 'Timpul pina la luna: ' +
+        daysToMoon + ' Zile <br>' + 'Distance to Mars: ' + distanceToMarsInMiles + ' Mile<br>' +
+        'distance To Moon: ' + distanceToMoonInMiles + ' Mile'
         ">Calculeaza</button>
         <p id="result"></p>
     </div>
