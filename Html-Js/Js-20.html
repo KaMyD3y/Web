@@ -17,6 +17,56 @@
         document.getElementById('result').innerHTML = `Cifra introdusa ${check} si Rezultatul ${result}`">Verifica </button>
         <p id="result"></p>
     </div>
-
+    <div class="div1">
+        <label for="first">1st Number:</label>
+        <input type="number" id="first" placeholder="Positive Number">
+        <br>
+        <label for="second">2nd Number:</label>
+        <input type="number" id="second" placeholder="Negative Number">
+        <br>
+        <button onclick="
+        let firstNumber = document.getElementById('first').value;
+        let secondNumber = document.getElementById('second').value;
+        let checkAllNumber = firstNumber >= 0 && secondNumber <= 0 ? 'Right':'Wrong';
+        document.getElementById('result1').innerText = `Totul este ${checkAllNumber} prima cifra este ${firstNumber} Adoua cifra ${secondNumber} `
+        ">To Check</button>
+        <p id="result1"></p>
+    </div>
+    <div class="div2">
+        <label for="1st">1st Number:</label>
+        <input type="number" id="1st" placeholder="Number">
+        <br>
+        <label for="2nd">2nd Number:</label>
+        <input type="number" id="2nd" placeholder="Number">
+        <br>
+        <button onclick="
+        let numbers1 = Number(document.getElementById('1st').value);
+        let numbers2 = Number(document.getElementById('2nd').value);
+        let sum = numbers1 + numbers2;
+        document.getElementById('adunarea').innerText = `Suma ${sum}`
+        ">+</button>
+        <button onclick="
+        let numbers3 = Number(document.getElementById('1st').value);
+        let numbers4 = Number(document.getElementById('2nd').value);
+        let sum1 = numbers3 - numbers4;
+        document.getElementById('minus').innerText = `Suma ${sum1}`
+        ">-</button>
+        <button onclick="
+        let numbers5 = Number(document.getElementById('1st').value);
+        let numbers6 = Number(document.getElementById('2nd').value);
+        let sum2 = numbers5 * numbers6;
+        document.getElementById('multiply').innerText = `Suma ${sum2}`
+        ">*</button>
+        <button onclick="
+        let numbers7 = Number(document.getElementById('1st').value);
+        let numbers8 = Number(document.getElementById('2nd').value);
+        let sum3 = numbers7 / numbers8;
+        document.getElementById('devide').innerText = `Suma ${sum3}`
+        ">/</button> 
+        <p id="adunarea"></p>
+        <p id="minus"></p>
+        <p id="multiply"></p>
+        <p id="devide"></p>
+    </div>
 </body>
 </html>
