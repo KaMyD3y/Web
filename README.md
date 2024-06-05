@@ -166,3 +166,10 @@
 **Distance To Mars**
 >
 >[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/JS1.html)
+
+25 **JavaScript**
+>**20 To Do**
+>
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/Js-20.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/js-20.css)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/Homework20.js)
