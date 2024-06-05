@@ -1,0 +1,25 @@
+body {
+    background-color: bisque;
+}
+div {
+    font-size: 1vw;
+    padding: 2vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    border: 5px solid greenyellow;
+    text-align: center;
+    color: red;
+}
+button {
+    font-size: 1vw;
+    border-radius: 5vw;
+}
+input {
+    font-size: 1vw;
+    border-radius:4vw
+}
+input[type="number"] {
+    text-align: center;
+    background-color:aquamarine;
+    color:red;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-js/js-20.css">
+    <title>To do 20</title>
+</head>
+<body>
+    <div>
+        <label for="check"></label>
+        <input type="number" id="check" placeholder="Number">
+        <button onclick="
+        let check = document.getElementById('check').value;
+        let minus = check - 13;
+        let result = minus >= 13 ? minus * 2 : minus;
+        document.getElementById('result').innerHTML = `Cifra introdusa ${check} si Rezultatul ${result}`">Verifica </button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
