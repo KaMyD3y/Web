@@ -27,7 +27,7 @@
         <button onclick="
         let firstNumber = document.getElementById('first').value;
         let secondNumber = document.getElementById('second').value;
-        let checkAllNumber = firstNumber >= 0 && secondNumber <= 0 ? 'Right':'Wrong';
+        let checkAllNumber = firstNumber >= 0 && secondNumber <= 0 || firstNumber <= 0 && secondNumber >= 0 ? 'Right':'Wrong';
         document.getElementById('result1').innerText = `Totul este ${checkAllNumber} prima cifra este ${firstNumber} Adoua cifra ${secondNumber} `
         ">To Check</button>
         <p id="result1"></p>
