@@ -10,7 +10,7 @@
     <div class="div">
         <label for="check"></label>
         <input class="input" type="number" id="check" placeholder="Number">
-        <button class="button" onclick="
+        <button class="button" type="button" value="Verifica" onclick="
         let check = document.getElementById('check').value;
         let minus = check - 13;
         let result = minus >= 13 ? minus * 2 : minus;
@@ -24,7 +24,7 @@
         <label for="second">2nd Number:</label>
         <input type="number" id="second" placeholder="Negative Number">
         <br>
-        <button onclick="
+        <button type="button" value="To check" onclick="
         let firstNumber = document.getElementById('first').value;
         let secondNumber = document.getElementById('second').value;
         let checkAllNumber = ((firstNumber >= 0 && secondNumber <= 0) || (firstNumber <= 0 && secondNumber >= 0)) ? 'Right':'Wrong';
@@ -39,25 +39,25 @@
         <label for="2nd">2nd Number:</label>
         <input type="number" id="2nd" placeholder="Number">
         <br>
-        <button onclick="
+        <button type="button" value="+" onclick="
         let numbers1 = Number(document.getElementById('1st').value);
         let numbers2 = Number(document.getElementById('2nd').value);
         let sum = numbers1 + numbers2;
         document.getElementById('adunarea').innerText = `Suma ${sum}`
         ">+</button>
-        <button onclick="
+        <button type="button" value="-" onclick="
         let numbers3 = Number(document.getElementById('1st').value);
         let numbers4 = Number(document.getElementById('2nd').value);
         let sum1 = numbers3 - numbers4;
         document.getElementById('minus').innerText = `Suma ${sum1}`
         ">-</button>
-        <button onclick="
+        <button type="button" value="*" onclick="
         let numbers5 = Number(document.getElementById('1st').value);
         let numbers6 = Number(document.getElementById('2nd').value);
         let sum2 = numbers5 * numbers6;
         document.getElementById('multiply').innerText = `Suma ${sum2}`
         ">*</button>
-        <button onclick="
+        <button type="button" value="/" onclick="
         let numbers7 = Number(document.getElementById('1st').value);
         let numbers8 = Number(document.getElementById('2nd').value);
         let sum3 = numbers7 / numbers8;
