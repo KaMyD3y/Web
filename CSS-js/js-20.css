@@ -1,24 +1,27 @@
 body {
     background-color: bisque;
 }
-div {
+.div {
+    border-radius:3vw;
+    background-color:cadetblue;
     font-size: 1vw;
     padding: 2vw;
-    margin-left: 25vw;
-    margin-right: 25vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
     border: 5px solid greenyellow;
     text-align: center;
     color: red;
 }
-button {
+.button {
     font-size: 1vw;
     border-radius: 5vw;
+    background-color:chartreuse;
 }
-input {
+.input {
     font-size: 1vw;
     border-radius:4vw
 }
-input[type="number"] {
+.input[type="number"] {
     text-align: center;
     background-color:aquamarine;
     color:red;
