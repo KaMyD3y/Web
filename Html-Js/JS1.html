@@ -7,41 +7,43 @@
 </head>
 <body>
     <div>
-        <label for="objectName">Numele Corabiei</label>
-        <input type="text" id="objectName" placeholder="Numele Corabiei">
-        <br>
-        <label for="speed">Viteza</label>
-        <input type="number" id="speed" placeholder="Speed">
-        <br>
-        <label for="distanceToMars">Distance to Mars</label>
-        <input type="number" id="distanceToMars" placeholder="Distance to Mars">
-        <br>
-        <label for="distanceToTheMoon">Distance to the Moon</label>
-        <input type="number" id="distanceToTheMoon" placeholder="Distance to the Moon">
-        <br>
-        <label for="milesPerKilometer">Miles per Kilometer</label>
-        <input type="number" id="milesPerKilometer" placeholder="Miles Per Kilometer">
-        <button onclick="
-        let objectName = document.getElementById('objectName').value;
-        let speed = document.getElementById('speed').value;
-        let distanceToMars = document.getElementById('distanceToMars').value;
-        let distanceToTheMoon = document.getElementById('distanceToTheMoon').value;
-        let milesPerKilometer = document.getElementById('milesPerKilometer').value;
-        
-        let timeToMars = distanceToMars / speed;
-        let timeToMoon = distanceToTheMoon / speed;
-        
-        let daysToMars = timeToMars / 24;
-        let daysToMoon = timeToMoon / 24;
+        <form>
+            <label for="objectName">Numele Corabiei</label>
+            <input type="text" id="objectName" placeholder="Numele Corabiei">
+            <br>
+            <label for="speed">Viteza</label>
+            <input type="number" id="speed" placeholder="Speed">
+            <br>
+            <label for="distanceToMars">Distance to Mars</label>
+            <input type="number" id="distanceToMars" placeholder="Distance to Mars">
+            <br>
+            <label for="distanceToTheMoon">Distance to the Moon</label>
+            <input type="number" id="distanceToTheMoon" placeholder="Distance to the Moon">
+            <br>
+            <label for="milesPerKilometer">Miles per Kilometer</label>
+            <input type="number" id="milesPerKilometer" placeholder="Miles Per Kilometer">
+            <button onclick="
+            let objectName = document.getElementById('objectName').value;
+            let speed = document.getElementById('speed').value;
+            let distanceToMars = document.getElementById('distanceToMars').value;
+            let distanceToTheMoon = document.getElementById('distanceToTheMoon').value;
+            let milesPerKilometer = document.getElementById('milesPerKilometer').value;
+            
+            let timeToMars = distanceToMars / speed;
+            let timeToMoon = distanceToTheMoon / speed;
+            
+            let daysToMars = timeToMars / 24;
+            let daysToMoon = timeToMoon / 24;
 
-        let distanceToMarsInMiles = distanceToMars * milesPerKilometer;
-        let distanceToMoonInMiles = distanceToTheMoon * milesPerKilometer;
+            let distanceToMarsInMiles = distanceToMars * milesPerKilometer;
+            let distanceToMoonInMiles = distanceToTheMoon * milesPerKilometer;
 
-        document.getElementById('result').innerHTML = 'Obiectul: ' +  typeof  objectName +' ' + objectName + '<br>' +
-        'Timpul pina la Mars: ' + typeof daysToMars+ ' ' + daysToMars + ' Zile<br>' + 'Timpul pina la luna: ' +
-        daysToMoon + ' Zile <br>' + 'Distance to Mars: ' + distanceToMarsInMiles + ' Mile<br>' +
-        'distance To Moon: ' + distanceToMoonInMiles + ' Mile'
-        ">Calculeaza</button>
+            document.getElementById('result').innerHTML = 'Obiectul: ' +  typeof  objectName +' ' + objectName + '<br>' +
+            'Timpul pina la Mars: ' + typeof daysToMars+ ' ' + daysToMars + ' Zile<br>' + 'Timpul pina la luna: ' +
+            daysToMoon + ' Zile <br>' + 'Distance to Mars: ' + distanceToMarsInMiles + ' Mile<br>' +
+            'distance To Moon: ' + distanceToMoonInMiles + ' Mile'
+            ">Calculeaza</button>
+        </form>
         <p id="result"></p>
     </div>
 </body>
