@@ -124,3 +124,16 @@ console.log(getAngel(90))
 console.log(getAngel(10))
 console.log(getAngel(120))
 console.log(getAngel(181))
+
+let getCountry = (country) => {
+    switch(country.toLowerCase()) {
+        case 'md' :
+            return '+373';
+        case 'ro':
+            return '+40';
+        default:
+            return 'Nothing'
+    }
+}
+console.log(getCountry('MD'))
+console.log(getCountry('RO'))
