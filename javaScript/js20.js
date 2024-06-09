@@ -87,3 +87,40 @@ const showCountryInfo = () => {
     const result = codulTara(cod);
     document.getElementById('tara').innerText = result;
 };
+let angel = (degree) => {
+    const name = 'angel' 
+
+    if (degree < 90 ) {
+        return `Acute ${name}`;
+    } else if (degree === 90) {
+        return `Right ${name}`;
+    } else if (degree < 180) {
+        return `Obtuse ${name}`;
+    } else {
+        return `Straight ${name}`;
+    }
+}
+console.log(angel(90))
+console.log(angel(180))
+console.log(angel(20))
+let getAngel = (degree) => {
+    switch(true) {
+       case degree < 90:
+            angel = 'Acute angel';
+            break;
+        case degree === 90:
+            angel = 'Right angel';
+            break;
+        case degree < 180:
+            angel = 'Obtuse angel';
+            break;
+        default:
+            angel = 'Straight angel';
+            break;
+    }
+    return angel;
+}
+console.log(getAngel(90))
+console.log(getAngel(10))
+console.log(getAngel(120))
+console.log(getAngel(181))
