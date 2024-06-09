@@ -173,3 +173,9 @@
 >[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/Js-20.html)
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/js-20.css)
 >[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/Homework20.js)
+
+26 **JAVASCRIPT**
+>**21 TO Do**
+>
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js21.html)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/js20.js)
