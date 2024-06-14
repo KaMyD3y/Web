@@ -42,7 +42,7 @@ console.log(convertArray(['a' , 'b' , 'd'], ';'));
 
 let proccesInput = (input) => {
     if (typeof input === 'number'){
-        return Number(input.toString().split('').reverse().join(''));
+        return Number(input.toString().split('').reverse().join(''));//sau parseint
     }
     else if (typeof input === 'string'){
         return input.split('').sort().join('');
