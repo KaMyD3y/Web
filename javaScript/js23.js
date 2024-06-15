@@ -19,7 +19,7 @@ let nowWithFor = (y,numbers=[30 , 40, 20, 10, 7]) => {
 nowWithFor(0)
 let nowOtherfor = (k ,numbers1=[30 , 40, 20, 10, 7]) => {
     for (d in numbers1) {
-        if (d >= k )
+        if (d >= k )// sau k in numbers1 si if in scoatem
         console.log(numbers1[d]);
     }
 }
