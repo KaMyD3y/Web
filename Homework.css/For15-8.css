@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(3 ,1fr);
+    width: 99vw;
+    height: 20vw;
+}
+.div1 {
+    background-color: green;
+    grid-area:  1 / 1 / 2 / 4;
+}
+.div2 {
+    background-color: yellow;
+    grid-area: 2 / 1 / 4 / 2;
+}
+.div3 {
+    background-color: blue;
+    grid-area: 2 / 2 / 3 / 4 ;
+}
+.div4 {
+    background-color: aquamarine;
+}
+.div5 {
+    background-color: blueviolet;
+}

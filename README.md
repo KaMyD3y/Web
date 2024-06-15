@@ -106,5 +106,82 @@
 
 20 **to do! in folder (For Homework HTML)**
 >**14 to**
+>
 >[Homework](https://github.com/KaMyD3y/WebFrontend/blob/Kamydzy/Homewrk.html/For14.html)
 >[CSS](https://github.com/KaMyD3y/WebFrontend/blob/Kamydzy/Homework.css/For14.css)
+
+21 **to do! in folder (Homewrk html)**
+>**15 todo!**
+>**GRID**
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-1.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-1.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-2.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-2.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-3.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-3.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-4.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-4.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-5.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-5.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-6.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-6.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-7.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-7.css)
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For15-8.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For15-8.css)
+
+22 **to do! in folder(Homework..Html and css)**
+>**16 To do!**
+>**Calculator**
+>
+>[Homework](https://github.com/KaMyD3y/Web/blob/main/Homewrk.html/For16.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/Homework.css/For16.css)
+
+23**JavaScript**
+>**Test alert, window, console,document**
+>
+>[Html](https://github.com/KaMyD3y/Web/blob/main/Html-Js/index.html)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/ConsoleNr1.js)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/Proprietatilewindow.js)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/DOMandWindow.js/Document.js)
+
+24**JavaScript**
+>**Works converts F and C**
+>
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/JS.html)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/Homework.js)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/JS.css)
+>
+**Distance To Mars**
+>
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/JS1.html)
+
+25 **JavaScript**
+>**20 To Do**
+>
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/Js-20.html)
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/js-20.css)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/Homework20.js)
+
+26 **JAVASCRIPT**
+>**21 TO Do**
+>
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js21.html)
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/js20.js)
+
+27 **JAVASCRIPT**
+>**22 to do**
+>
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/js22.js)
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js22.html)

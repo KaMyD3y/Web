@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-template-rows: repeat(3 ,1fr);
+    width: 99vw;
+    height: 20vw;
+}
+.div1 {
+    background-color: green;
+}
+.div2 {
+    background-color: yellow;
+}
+.div3 {
+    background-color: blue;
+}
+.div4 {
+    background-color: aquamarine;
+}
+.div5 {
+    background-color: blueviolet;
+}
+.div6 {
+    background-color: brown;
+}
+.div7 {
+    background-color: bisque;
+}
+.div8 {
+    grid-area: 2 / 3 / 3 / 6;
+    background-color: aqua;
+}
+.div9 {
+    grid-area: 3 / 1 / 4 / 6  ;
+    background-color: burlywood;
+}

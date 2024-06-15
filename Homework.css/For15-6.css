@@ -1,0 +1,35 @@
+.container {
+    display: grid; 
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(2 , 1fr);
+}
+.box7 {
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    display: grid;
+    height: 10vw;
+    padding: 1vw;
+    background-color: greenyellow;
+}
+.box1 {
+    background-color: aqua;
+}
+.box2 {
+    background-color: aquamarine;
+}
+.box3 {
+    background-color: bisque;
+    grid-area: 2 / 1 / 4 / 2 ;
+}
+.box4 {
+    background-color: blue;
+    grid-area: 1 / 1 / 2 / 3 ;
+}
+.box5 {
+    background-color: blueviolet;
+    grid-area: 2 / 1 / 2 / 2 ;
+}
+.box6 {
+    background-color: brown;
+    grid-area: 2 / 2 / 3 / 3;
+}

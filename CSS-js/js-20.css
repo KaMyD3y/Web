@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+.div {
+    border-radius:3vw;
+    background-color:cadetblue;
+    font-size: 1vw;
+    padding: 2vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border: 5px solid greenyellow;
+    text-align: center;
+    color: red;
+}
+.button {
+    font-size: 1vw;
+    border-radius: 5vw;
+    background-color:chartreuse;
+}
+.input {
+    font-size: 1vw;
+    border-radius:4vw
+}
+.input[type="number"] {
+    text-align: center;
+    background-color:aquamarine;
+    color:blue;
+}
+.div1 {
+    border-radius: 2vw;
+    margin-right: 30vw;
+    margin-left: 30vw;
+    border: 5px solid green;
+    text-align: center;
+    padding: 2vw;
+    background-color:white;
+}
+.div2 {
+    border: 5px solid yellowgreen;
+    text-align: center;
+    border-radius: 2vw;
+    margin-right: 30vw;
+    margin-left: 30vw;
+}

@@ -1,0 +1,181 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(5 , 1fr);
+    background-color: rgb(71, 67, 67);
+    width: 37vw;
+    border-radius: 1vw;
+    margin-left: 30vw;
+}
+/* puteam cu gap stiu*/
+.calculator {
+    background-color: greenyellow;
+    opacity: 0.5;
+    grid-area: 1 / 1 / 2 / 5;
+    padding: 2vw;
+    margin-top: 1vw;
+    width: 31vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+}
+.box {
+    font-size: 5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box1 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box2 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box3 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+.box4 {
+    font-size: 5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box5 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box6 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box7 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+.box8 {
+    font-size: 5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box9 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box10 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box11 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    color: white;
+    background-color: grey;
+}
+.box12 {
+    font-size: 5vw;
+    margin-top: 1vw;
+    margin-left: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: black;
+}
+.box13 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: gray;
+}
+.box14 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    margin-right: 0.5vw;
+    color: white;
+    background-color: gray;
+}
+.box15 {
+    margin-left: 0.5vw;
+    font-size: 5vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    color: white;
+    background-color: gray;
+}
+/*Doar prototip dar mai peurma cu button si js se poate de modernizat!*/

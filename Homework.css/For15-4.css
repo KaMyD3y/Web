@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 30em;
+    border: 5px solid black;
+    gap: 1%;
+    }
+/* puteam si cu child stiu)*/
+.div1 {
+    background-color: green;
+}
+.div2 {
+    background-color: yellow;
+}
+.div3 {
+    background-color: blue;
+}
+.div4 {
+    background-color: aquamarine;
+}
+.div5 {
+    background-color: blueviolet;
+}
+.div6 {
+    background-color: brown;
+}
+.div7 {
+    background-color: bisque;
+}
+.div8 {
+    background-color: aqua;
+}
+.div9 {
+    background-color: burlywood;
+}
+.div10 {
+    background-color: blanchedalmond;
+}
+.div11 {
+    background-color: cadetblue;
+}
+.div12 {
+    background-color: chartreuse;
+}
+.div13 {
+    background-color: azure;
+}
+.div14 {
+    background-color: coral;
+}
+.div15 {
+    background-color: darkblue;
+}
+.div16 {
+    background-color: cornflowerblue;
+}
+.div17 {
+    background-color:darkgreen;
+}
+.div18 {
+    background-color: cyan;
+}
