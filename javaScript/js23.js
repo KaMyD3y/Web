@@ -28,3 +28,9 @@ const numbers1=[30 , 40, 20, 10, 7];
 for (d in numbers1) {
     console.log(numbers1[d]);
 }
+let nowOtherfor1 = ( num ,numbers2=[30 , 40, 20, 10, 7]) => {
+    for (num of numbers2) {
+        console.log(num);
+    }
+}
+nowOtherfor1(0)
