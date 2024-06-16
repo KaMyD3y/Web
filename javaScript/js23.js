@@ -44,8 +44,19 @@
 //     console.log(result);
 // }
 // findFor(10)
-let findFor = (num,some=[30 , 40, 20, 10, 7]) => {
-    let result = some.find(item => item >num);
-    console.log(result);
-}
-findFor(20)
+// let findFor = (num,some=[30 , 40, 20, 10, 7]) => {
+//     let result = some.find(item => item >num);
+//     console.log(result);
+// }
+// findFor(20)
+// let findFor = (num,some=[10 , 20, 30, 40, 7]) => {
+//     let result = some.findIndex(item => item >num);
+//     console.log(result);
+// }
+// findFor(20)
+// let findFor = (num,some=[10 , 20, 30, 40, 7]) => {
+//     let result = some.findLastIndex(item => item >num);
+//     console.log(result);
+// }
+// findFor(5)
+
