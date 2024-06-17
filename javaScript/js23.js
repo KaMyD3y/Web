@@ -49,14 +49,30 @@
 //     console.log(result);
 // }
 // findFor(20)
-let findFor = (num,some=[10 , 20, 30, 40, 7]) => {
-    let result = some.findIndex(item => item >= num);
-    console.log(result);
-}
-findFor(15)
+// let findFor = (num,some=[10 , 20, 30, 40, 7]) => {
+//     let result = some.findIndex(item => item >= num);
+//     console.log(result);
+// }
+// findFor()
 // let findFor = (num,some=[10 , 20, 30, 40, 7]) => {
 //     let result = some.findLastIndex(item => item >num);
 //     console.log(result);
 // }
 // findFor(5)
-
+// let mapArray = (num,some=[10 , 20, 30, 40, 7]) => {
+//     let result = some.map(item => item * num);
+//     console.log(result);
+// }
+// mapArray(1.5)
+// let mapArray = (some=[10 , 20, 30, 40, 7]) => {
+//     let result = some.reduce((a,b) => {
+//         return a + b;
+//     });
+//     console.log(result)
+// }
+// mapArray()
+ let mapArray = (num ,some=[10 , 20, 30, 40, 7]) => {
+    let result = some.filter(item => item % num === 0);
+    console.log(result)
+}
+mapArray(4)
