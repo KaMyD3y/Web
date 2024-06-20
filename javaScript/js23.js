@@ -170,17 +170,17 @@
 //     return maxValue;
 // }
 // checkNumber(newArray);
-let index = 0;
-const empty = [];
-let addElement = () => {
-    empty[index] = document.getElementById("add").value;
-    console.log(`Element: ${empty[index]} Added at index ${index}`);
-    index++;
-    document.getElementById("add").value = "";
-}
-let displayArray = () => {
-    let result = "<hr/>";
-    for ( let y = 0; y < empty.length; y++){
-        result += `Element ${y} = ${empty[y]} <br/>`;
-    } document.getElementById("result").innerHTML = result;
-}
+// let index = 0;
+// const empty = [];
+// let addElement = () => {
+//     empty[index] = document.getElementById("add").value;
+//     console.log(`Element: ${empty[index]} Added at index ${index}`);
+//     index++;
+//     document.getElementById("add").value = "";
+// }
+// let displayArray = () => {
+//     let result = "<hr/>";
+//     for ( let y = 0; y < empty.length; y++){
+//         result += `Element ${y} = ${empty[y]} <br/>`;
+//     } document.getElementById("result").innerHTML = result;
+// }
