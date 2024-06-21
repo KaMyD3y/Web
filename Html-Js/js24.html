@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-js/js24.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="/javaScript/js24.js"></script>
+    <button id="myByt">Click me</button>
+    <script>
+        let some =  document.getElementById("myByt");
+        some.addEventListener('click',function() {
+            for (i = 0 ; i < 5 ; i++) {
+                alert('Hello , World!');
+            }
+        });
+    </script><br>
+    <span class="button">Click me</span>
+    <span class="remove">Remove Image</span>
+    <img class="hidden" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718841600&semt=sph"
+     width="100" height="100" alt="Javascript logo">
+
+    <script>
+        const viewButton = document.querySelector('.button');
+        const image = document.querySelector('img');
+        const removeButton = document.querySelector('.remove');
+        let showImage = () => {
+            if (image === null) {
+                console.log('Image does not exist');
+                return;
+            }
+            image.classList.add('show');
+        }
+        const hidenImage = () => image.className = 'hidden';
+
+        const remove = () => {
+            const parent = image.parentNode;
+            parent.removeChild(image);
+            remove.removeEventListener('click',remove);
+        }
+        viewButton.addEventListener('click',showImage);
+        image.addEventListener('click',hidenImage);
+        removeButton.addEventListener('click',remove);
+    </script>
+    <span class="butt" id="imag">Click me</span>
+    <script>
+        let button = () => {
+        let print = document.createElement("img");
+        print.src = "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718841600&semt=sph";
+
+        document.body.appendChild(print);
+        
+        print.addEventListener("click",() => {
+            console.log('Image Button clicked');
+        });
+    };
+        let spanButton = document.getElementById('imag');
+        spanButton.addEventListener('click',button);
+    </script>
 </body>
 </html>

@@ -1,0 +1,32 @@
+.button,.remove ,.butt {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+.button,
+.butt, 
+.remove:hover {
+    background-color: #0056b3;
+}
+.button,
+.butt, 
+.remove:active {
+    background-color: #004494;
+}
+img {
+    transition: display .2ms ease;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+    margin-top: 20px;
+}
