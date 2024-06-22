@@ -75,7 +75,7 @@
 
     </script> -->
     <!-- a treia parte -->
-    <input type="text" id="demo">
+    <!-- <input type="text" id="demo">
     <p id="result"></p>
     <script>
         let save = document.getElementById('demo');
@@ -87,8 +87,53 @@
             document.getElementById('result').innerHTML = "Fuck You Not P";
         }
         }
-    </script>
+    </script> -->
     <!-- Check keypress -->
+     <!-- This is how teacher did (check daca fiecare input este completat!)
+        <form id="myForm" action="">
+        <label for="name">Nume</label>
+        <input class="input" type="text" id="name">
+
+        <label for="surname">Prenuume</label>
+        <input class="input" type="text" id="surname">
+
+        <label for="address">Addressa</label>
+        <input class="input" type="text" id="address">
+
+        <label for="birthdate">Ziua de nastere</label>
+        <input class="input" type="text" id="birthdate">
+
+        <label for="email">Email</label>
+        <input class="input" type="text" id="email">
+
+        <input class="input" type="submit" value="Inregistreazate!">
+
+     </form>
+     <div id="result"></div>
+     <script>
+        const form = document.getElementById('myForm');
+        const inputs = document.querySelectorAll('.input');
+
+        form.addEventListener('submit', function(event) {
+            let countEmptyInputs = 0;
+
+            inputs.forEach(item => {
+                if(item.value.length === 0 ) {
+                    item.style.border = '1px solid red';
+                    countEmptyInputs++;
+                }else {
+                    item.style.border = '1px solid green';
+                }
+            });
+            if (countEmptyInputs !==0) {
+                event.preventDefault();
+                document.getElementById('result').innerText = "Please fill out all fields.";
+            }else if (countEmptyInputs === 0 ) {
+                document.getElementById('result').innerText = "You filled it out";
+                
+            }
+        });
+     </script> -->
     
 </body>
 </html>
