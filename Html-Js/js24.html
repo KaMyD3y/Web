@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <button id="myByt">Click me</button>
+    <!-- <button id="myByt">Click me</button>
     <script>
         let some =  document.getElementById("myByt");
         some.addEventListener('click',function() {
@@ -16,6 +16,7 @@
             }
         });
     </script><br>
+    !First!
     <span class="button">Click me</span>
     <span class="remove">Remove Image</span>
     <img class="hidden" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718841600&semt=sph"
@@ -43,6 +44,7 @@
         image.addEventListener('click',hidenImage);
         removeButton.addEventListener('click',remove);
     </script>
+    !!Second!!
     <span class="butt" id="imag">Click me</span>
     <script>
         let button = () => {
@@ -57,6 +59,36 @@
     };
         let spanButton = document.getElementById('imag');
         spanButton.addEventListener('click',button);
+    </script> -->
+    <!-- !!Second other!! -->
+
+    <!-- <button id="imag">Нажми меня</button>
+    <p id="result"></p>
+    <script> 
+        let number = 0;
+        let save = document.getElementById('imag');
+    
+        save.onclick = () => {
+            number++;
+            document.getElementById('result').innerHTML = number ;
+        };
+
+    </script> -->
+    <!-- a treia parte -->
+    <input type="text" id="demo">
+    <p id="result"></p>
+    <script>
+        let save = document.getElementById('demo');
+        save.onkeypress = () =>{
+            if (event.key === 'p'){
+            document.getElementById('result').innerHTML = "Fuck You";
+            document.getElementById('result').style.backgroundColor = "red";
+        } else {
+            document.getElementById('result').innerHTML = "Fuck You Not P";
+        }
+        }
     </script>
+    <!-- Check keypress -->
+    
 </body>
 </html>
