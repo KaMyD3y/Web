@@ -191,3 +191,9 @@
 >
 >[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/js23.js)
 >[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js23.html)
+
+29 **JaVaScript**
+>**24 to do**
+>
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/js24.css)
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js24.html)
