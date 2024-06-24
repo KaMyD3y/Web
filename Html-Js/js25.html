@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-js/js25.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="form" id="carForm" action="">
+        <div>
+            <label for="make">Masina: </label>
+            <input type="text" id="make" placeholder="Masina">
+            <label for="model">Modelul: </label>
+            <input type="text" id="model"  placeholder="Model"> <br>
+            <label for="year">Year: </label>
+            <input type="text" id="year" placeholder="Anul">
+            <label for="color">Culoarea: </label>
+            <input type="text" id="color" placeholder="Color"><br>
+            <input class="submit" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script>
+
+        const form = document.getElementById('carForm');
+        const carMake = document.getElementById('make');
+        const carModel = document.getElementById('model');
+        const carYear = document.getElementById('year');
+        const carColor = document.getElementById('color');
+
+        form.addEventListener('submit' , (event) =>{
+            event.preventDefault();
+
+            const carData = {
+                Car : {
+                    make: carMake.value,
+                    model: carModel.value,
+                    year: carYear.value,
+                    color: carColor.value
+                }
+            };
+            console.log(carData);
+        });
+    </script>
+    
+    <div id="divInfo">
+        <button id="start">Start</button>
+        <button id="drive">Drive</button>
+        <button id="stop">Stop</button>
+        <button id="honk">Honk</button>
+        <p id="p"></p>
+    </div>
+    <script>
+        const carInfo = document.getElementById('divInfo');
+        const carStart = document.getElementById('start');
+        const carDrive = document.getElementById('drive');
+        const carStop = document.getElementById('stop');
+        const carHonk = document.getElementById('honk');
+        const para = document.getElementById('p');
+
+        carInfo.addEventListener('click', (event) => {
+            if (event.target === carStart) {
+                para.textContent = 'Masina sa pornit';
+            } else if (event.target === carDrive) {
+                para.textContent = 'Masina se conduce';
+            } else if (event.target === carStop) {
+                para.textContent = 'Masina sa oprit';
+            } else if (event.target === carHonk) {
+                para.textContent = 'Masina claxoneaza';
+            }
+        });
+    </script>
+
+</body>
+</html>
