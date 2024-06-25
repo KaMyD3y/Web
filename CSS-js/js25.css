@@ -12,3 +12,30 @@
 .form {
     padding: 2vw;
 }
+.carStart , .carStop,
+.carHonk, .carDrive {
+    padding: 10px;
+    background-color:brown;
+    color: wheat;
+    text-align: center;
+    border:none;
+    border-radius:1vw;
+    cursor:pointer;
+    user-select: none;
+}
+.inline {
+    display:inline-block;
+}
+.moveRight {
+    display:none ;
+    color: green;
+    padding: 3vw;
+    margin-left: 5vw;
+    margin-top: -12vw;
+}
+.moveRight1 {
+    display:none ;
+    color: green;
+    padding: 3vw;
+    margin-left: 5vw;
+}
