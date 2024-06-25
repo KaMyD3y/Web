@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS-js/js25.css">
     <title>Document</title>
+    <style>
+          h3 {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <!-- Car -->
@@ -163,6 +168,54 @@
     showUnreadBooksButton.addEventListener('click', () => showBooks('unread'));
 
     </script> -->
+    <!-- <button class="start" id="start">Start</button>
+    <button class="drive" id="drive">Drive</button>
+    <button class="stop" id="stop">Stop</button>
+    <button class="honk" id="honk">Honk</button>
+    <h1 id="status"></h1>
+    <script>
 
+        const carStart = document.getElementById('start');
+        const carDrive = document.getElementById('drive');
+        const carStop = document.getElementById('stop');
+        const carHonk = document.getElementById('honk');
+        const statusElement = document.getElementById('status');
+
+        carStart.addEventListener('click', () => {
+            statusElement.textContent = "The car is starting";
+        });
+
+        carDrive.addEventListener('click', () => {
+            statusElement.textContent = "The car is driving";
+        });
+
+        carStop.addEventListener('click', () => {
+            statusElement.textContent = "The car is stopping";
+        });
+
+        carHonk.addEventListener('click', () => {
+            statusElement.textContent = "Honk Honk!";
+        });
+    </script> -->
+    <script>
+        let car = {
+            make: 'ToyoTa',
+            model: 'Camry',
+            year: '2020',
+            color: 'Red',
+            start: function(){
+                console.log('The car is starting');
+            },
+            drive: function(){
+                console.log('The car is driving');
+            },
+            stop: function(){
+                console.log('The car is stoPPed');
+            },
+            honk: function(){
+                console.log('Honk Honk!');
+            }
+        };
+    </script>
 </body>
 </html>

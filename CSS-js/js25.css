@@ -39,3 +39,13 @@
     padding: 3vw;
     margin-left: 5vw;
 }
+.start,.stop,.drive,.honk{
+    padding: 1vw;
+    border:none;
+    border-radius:1vw;
+    background-color:brown;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    margin: 0.3vw;
+}
