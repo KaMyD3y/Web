@@ -197,7 +197,7 @@
             statusElement.textContent = "Honk Honk!";
         });
     </script> -->
-    <script>
+    <!-- <script>
         let car = {
             make: 'ToyoTa',
             model: 'Camry',
@@ -216,6 +216,22 @@
                 console.log('Honk Honk!');
             }
         };
+    </script> -->
+    <script>
+         let recipe = () => {
+            let some = {
+                'title': 'Mole',
+                'servings': 2 ,
+                'ingredients': ['cusmin','cinnamon','coca']
+            };
+            console.log(some.title);
+            console.log('Servings ' + some.servings);
+            console.log('ingredients');
+            for (var i = 0; i <some.ingredients.length; i++) {
+                console.log(some.ingredients[i]);
+            }
+         };
+        recipe();
     </script>
 </body>
 </html>
