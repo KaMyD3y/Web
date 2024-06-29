@@ -233,5 +233,29 @@
          };
         recipe();
     </script> -->
+    <script>
+        let books = [
+            {
+                title: 'Evanghelion',
+                author: 'Marina',
+                alreadyRead: false
+            },
+            {
+                title: 'You my',
+                author: 'Kyle simpson',
+                alreadyRead: true
+            },
+            ];
+            for(let i = 0; i<books.length; i++){
+                const book = books[i];
+                const bookInfo = `${book.title} by ${book.author}`;
+
+                if (book.alreadyRead){
+                    console.log('You already read "' + bookInfo );
+                }else{
+                    console.log('You still need to read "' + bookInfo);
+                }
+            };
+    </script>
 </body>
 </html>
