@@ -85,7 +85,7 @@
         }
         someObject();
     </script> -->
-    <h1 id="result"></h1>
+    <!-- <h1 id="result"></h1>
     <p style="color:red;" id="result1"></p>
     <script>
         let iterableObjects = {id:'234', name:'Mihail',class:'Junior'}
@@ -99,6 +99,22 @@
             }
         }
         someObjectsIterable();
+    </script> -->
+    <h2 id="result"></h2>
+    <script>
+        const someArr = [
+        ['1','a'],
+        ['2','b'],
+        ['3','c'],
+        ];
+        console.log(someArr);
+        let transArr = () => {
+           let transform = Object.fromEntries(someArr);
+           console.log(transform);
+           for (const[key,value] of (someArr)){
+           document.getElementById('result').innerHTML +=`${key}  ${value} :<br>`;}
+        };
+        transArr();
     </script>
 </body>
 </html>
