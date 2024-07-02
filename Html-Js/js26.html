@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <p id="result"></p>
+    <script>
+        let site = {
+            name:'tekwill academy',
+        };
+        site.welcome = function() {
+            console.log('Welcome to Tekwill!');
+        };
+        document.getElementById('result').innerHTML = site.name;
+        document.getElementById('result').innerHTML = site.welcome();
+    </script> -->
+    <!-- Shortland of methods -->
+    <!-- <p id="result"></p>
+    <script>
+        let site =  {
+            name: 'Tekwill academy!',
+            welcome() {
+                //console.log('Welcome to Tekwill');
+                console.log(this.name);
+            }
+        };
+        document.getElementById('result').innerHTML = site.welcome();
+    </script> -->
+    <!-- <script>
+        function hello () {
+            console.log("Hello world!");
+        };
+        hello()
+        let great = hello;
+        great()
+    </script> -->
+    <!-- <p id="result"></p>
+    <script>
+        const newSistem = { make: 'techila' , model: 'laptop', year:2002};
+        //console.log('make' in newSistem);
+        //document.getElementById('result').innerHTML = 'make' in newSistem;
+        for (let key in newSistem) {
+            const value = newSistem[key];
+            document.getElementById('result').innerHTML += key + ':' + value + '<br>';
+
+        }
+        for (element in newSistem) {
+
+            document.getElementById('result').innerHTML += element +'<br>';
+        }
+    </script> -->
+    <!-- <script>
+        const newSistem = { make: 'techila' , model: 'laptop', year:2002};
+        for (element in newSistem){
+            console.log(element);
+        }
+    </script> -->
+    <!-- <p id="result"></p>
+    <p id="result1"></p>
+    <p id="result2"></p>
+    <script>
+        const newSistem = { make: 'techila' , model: 'laptop', year:2002};
+        //document.getElementById('result').innerHTML = Object.keys(newSistem);
+        let someObject = () => {
+            const change = newSistem;
+            document.getElementById('result').innerHTML = Object.keys(newSistem);
+            document.getElementById('result1').innerHTML = Object.keys(change);
+        }
+        someObject();
+        let someObject1 = (some) => {
+            document.getElementById('result2').innerHTML = Object.keys(some);
+        }
+        someObject1({id:'some',model:'lux',suma:'23000'});
+        
+    </script> -->
+    <!-- <p id="result"></p>
+    <script>
+        const iterablObjects = {id:'123', name:'Mihail',house:'Flat',color:'white' };
+        let someObject = () => {
+            document.getElementById('result').textContent = Object.getOwnPropertyNames(iterablObjects);
+            console.log(Object.getOwnPropertyNames(iterablObjects));
+        }
+        someObject();
+    </script> -->
+    <h1 id="result"></h1>
+    <p style="color:red;" id="result1"></p>
+    <script>
+        let iterableObjects = {id:'234', name:'Mihail',class:'Junior'}
+        let someIterable = () => {
+            document.getElementById('result').innerHTML = Object.values(iterableObjects);
+        }
+        someIterable();
+        let someObjectsIterable = () => {
+            for (const[key,value] of Object.entries(iterableObjects)) {
+                document.getElementById('result1').innerHTML += `${key}: ${value}: <br>`;
+            }
+        }
+        someObjectsIterable();
+    </script>
+</body>
+</html>
