@@ -100,7 +100,8 @@
         }
         someObjectsIterable();
     </script> -->
-    <h2 id="result"></h2>
+    <!-- <h2 id="result"></h2>
+    <p id="check"></p>
     <script>
         const someArr = [
         ['1','a'],
@@ -111,10 +112,58 @@
         let transArr = () => {
            let transform = Object.fromEntries(someArr);
            console.log(transform);
+           let objectString = "";
+           for (let [key,value] in transform) {
+                objectString += `${key} : ${objectString[value]}<br>`;
+           }
+           document.getElementById('check').innerHTML = objectString;
+
            for (const[key,value] of (someArr)){
            document.getElementById('result').innerHTML +=`${key}  ${value} :<br>`;}
         };
         transArr();
+    </script> -->
+    <script>
+        
+        let someObject = {
+            name: 'Mihail',
+            lastName: 'Crigan',
+            likeJs: true,
+            occupation: 'studend',
+        };
+        //schimbam locul
+        let changeObject = (object) => {
+            const convetdObject = {};
+            for (const[key,value] of Object.entries(object)){
+                convetdObject[value]= key;
+            }
+            return convetdObject;
+        }
+        let changeAnother = (object) => {
+            return Object.entries(object).reduce((element,[key,value]) =>{
+                element[value] = key;
+                
+                return element;
+            },{});
+        }
+        //copiem dintrun obiect in altul !
+        let cars = {
+            name:'BMW',
+            model:'M5'
+        };
+        let saveAndChange = (object) =>{
+            let clonedObj = {};
+            for(let key in object){
+                clonedObj[key] = object[key];
+                
+            }
+            console.log(clonedObj);
+            clonedObj.name = "FIAT";
+            console.log(clonedObj.name);
+
+        };
+        saveAndChange(cars);
+        
     </script>
 </body>
 </html>
