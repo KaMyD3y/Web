@@ -357,12 +357,19 @@
             object.difficulty -= 1;
             delete object.jokes;
             object["isFan"] = true;
+            object.isTrue = false;
             object.languages.forEach((key) => console.log(key));
+            for (let i = 0 ; i<programing.languages.length; i++){
+                console.log(programing.languages[i]);
+            }
             for (let [item,values] of Object.entries(object)){
                 console.log(item,values);
                 console.log(`${item}: ${values}`)
             };
+            console.log(Object.values(object));
+            console.log(Object.keys(object));
             console.log(object);
+            
         };
         change(programing);
 
