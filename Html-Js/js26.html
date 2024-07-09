@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<>
     <!-- <p id="result"></p>
     <script>
         let site = {
@@ -123,7 +123,8 @@
         };
         transArr();
     </script> -->
-    <script>
+    <!--change detail-->
+    <!-- <script>
         
         let someObject = {
             name: 'Mihail',
@@ -164,6 +165,182 @@
         };
         saveAndChange(cars);
         
+    </script> -->
+    <!--In one-->
+    <!-- <script>
+        const dateOne = {a: 2, b: 3};
+        const dateTwo = {c: 4 , b: 1};
+        let mixToOne = () => {
+            let target = Object.assign(dateOne,dateTwo);
+            console.log(target)
+            console.log(dateOne)
+        }
+        mixToOne();
+        const dateOne1 = {a: 2, b: 3 , d: 5};
+        const dateTwo1 = {c: 4 , b: 1};
+        let mixToOne1 = (object1,object2) => {
+            let target = Object.assign(object1,object2);
+            console.log(target);
+            console.log(object1);
+
+        }
+        mixToOne1(dateOne1,dateTwo1);
+
+    </script> -->
+    <!--Schimbarea datelor inautru-->
+    <!-- <script>
+        let myObj = () => {
+            let myObject = {
+                a: 7 ,
+                get b() {
+                    return this.a + 1;
+                },
+                set c(x) {
+                    this.a = x/2;
+                },
+            };
+            return myObject;
+        };
+        console.log(myObj().b);
+        let objInstance = myObj();
+        console.log(objInstance.b);
+        objInstance.c = 10;
+        console.log(objInstance.b);
+        console.log(objInstance.c);
+        console.log(objInstance);
+    </script> -->
+    <!--Getter and Setter-->
+    <!-- <script>
+        let students = () => {
+            const stundent = {
+                firstName:'Mihail',
+                get getName(){
+                    return this.firstName;
+                },
+                set changeName(newName) {
+                    this.firstName = newName;
+                },
+            };
+            return stundent;
+        };
+        console.log(students.firstName);
+        let safe = students();
+        console.log(safe);
+        console.log(safe.firstName);
+        console.log(safe.getName);
+        safe.changeName = 'Sarah';
+        console.log(safe.firstName);
+        console.log(safe);
+
+    </script> -->
+    <!--compararea!-->
+    <!-- <script>
+        let checkSome = () => {
+            let fruit = {name: 'appple'};
+            let fruitBear = {name: 'apple'};
+            console.log(fruit == fruitBear);
+            console.log(fruit === fruitBear);
+            let fruit1 = {name: 'appple'};
+            let fruitBear1 = fruit1;
+            console.log(fruit1 === fruitBear1);
+            fruitBear1.name = 'banana';
+            console.log(fruit1 === fruitBear1);
+            console.log(fruit1);
+        };
+        checkSome();
+    </script> -->
+    <!-- <script>
+        const book = {
+            title:'Harry Potter',
+            author:'J.K.Rowling',
+            pages:400,
+            currentPages:55,
+        };
+        let readHowMany = () =>{
+           let object1 = {
+            title:'Harry Potter',
+            author:'J.K.Rowling',
+            pages:400,
+            currentPages:55,
+            get howMany() {
+                return this.pages - this.currentPages;
+            },
+            get procente() {
+                return (this.currentPages / this.pages) * 100;
+            },
+            get isRead(){
+                return this.pages === this.currentPages;
+            }
+           };
+           return object1;
+        };
+        let safe = readHowMany();
+        console.log(`Au mai ramas ${safe.howMany} au fost citite ${safe.currentPages} , in procente ${safe.procente} %, daca e citita! ${safe.isRead}`);
+    </script> -->
+    <!-- <script>
+        const book = {
+            title:'Harry Potter',
+            author:'J.K. Rowling',
+            pages:300,
+            currentPage:1,
+            read: function(numPages) {
+                this.currentPage += numPages;
+                console.log(`Reading ${numPages} pages`);
+            },
+            checkPage: function() {
+                console.log(`Current page is: ${this.currentPage}`);
+            },
+            checkPercentage:function(){
+                console.log(`${(this.currentPage / this.pages)*100}%`);
+            },
+            isRead: function(){
+                return this.currentPage === this.pages;
+            }
+        };
+        book.read(10);
+        book.checkPage();
+        book.checkPercentage();
+        console.log(book.isRead());
+    </script> -->
+    <script>
+        const rectangle = {
+            width: 0,
+            height:0,
+            set widthValue (value) {
+                if (value >=0 ){
+                    this.width = value;
+                }
+            },
+            set heightValue(value){
+                if (value >= 0 ) {
+                    this.height = value;
+
+                }
+            },
+            get widthValue (){
+                return this.width;
+            },
+            get heightValue(){
+                return this.height;
+            },
+            get perimeter(){
+                return (this.widthValue + this.heightValue) * 2;
+            },
+            get area (){
+                return this.widthValue * this.heightValue;
+            }
+        };
+        const save = rectangle;
+        console.log(save);
+        console.log(save.height = 100);
+        console.log(save.width = 30);
+        console.log(save.area);
+        console.log(save.perimeter);
+        console.log(save.widthValue = 50);
+        console.log(save.heightValue = 50);
+        console.log(save.area);
+        console.log(save.perimeter);
     </script>
+
 </body>
 </html>
