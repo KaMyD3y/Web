@@ -197,3 +197,5 @@
 >
 >[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/js24.css)
 >[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js24.html)
+>
+>restul lucru e facut asa pentru mine si nu este inregistrat aicea!
