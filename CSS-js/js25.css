@@ -1,0 +1,51 @@
+.submit { 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+.form {
+    padding: 2vw;
+}
+.carStart , .carStop,
+.carHonk, .carDrive {
+    padding: 10px;
+    background-color:brown;
+    color: wheat;
+    text-align: center;
+    border:none;
+    border-radius:1vw;
+    cursor:pointer;
+    user-select: none;
+}
+.inline {
+    display:inline-block;
+}
+.moveRight {
+    display:none ;
+    color: green;
+    padding: 3vw;
+    margin-left: 5vw;
+    margin-top: -12vw;
+}
+.moveRight1 {
+    display:none ;
+    color: green;
+    padding: 3vw;
+    margin-left: 5vw;
+}
+.start,.stop,.drive,.honk{
+    padding: 1vw;
+    border:none;
+    border-radius:1vw;
+    background-color:brown;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+    margin: 0.3vw;
+}

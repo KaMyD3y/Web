@@ -185,3 +185,17 @@
 >
 >[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/js22.js)
 >[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js22.html)
+
+28 **JAVASCRIPT**
+>**23 to do**
+>
+>[JS](https://github.com/KaMyD3y/Web/blob/main/javaScript/js23.js)
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js23.html)
+
+29 **JaVaScript**
+>**24 to do**
+>
+>[CSS](https://github.com/KaMyD3y/Web/blob/main/CSS-js/js24.css)
+>[HTML](https://github.com/KaMyD3y/Web/blob/main/Html-Js/js24.html)
+>
+>restul lucru e facut asa pentru mine si nu este inregistrat aicea!

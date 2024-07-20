@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-js/js24.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button id="myByt">Click me</button>
+    <script>
+        let some =  document.getElementById("myByt");
+        some.addEventListener('click',function() {
+            for (i = 0 ; i < 5 ; i++) {
+                alert('Hello , World!');
+            }
+        });
+    </script><br>
+    !First!
+    <span class="button">Click me</span>
+    <span class="remove">Remove Image</span>
+    <img class="hidden" src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718841600&semt=sph"
+     width="100" height="100" alt="Javascript logo">
+
+    <script>
+        const viewButton = document.querySelector('.button');
+        const image = document.querySelector('img');
+        const removeButton = document.querySelector('.remove');
+        let showImage = () => {
+            if (image === null) {
+                console.log('Image does not exist');
+                return;
+            }
+            image.classList.add('show');
+        }
+        const hidenImage = () => image.className = 'hidden';
+
+        const remove = () => {
+            const parent = image.parentNode;
+            parent.removeChild(image);
+            remove.removeEventListener('click',remove);
+        }
+        viewButton.addEventListener('click',showImage);
+        image.addEventListener('click',hidenImage);
+        removeButton.addEventListener('click',remove);
+    </script>
+    !!Second!!
+    <span class="butt" id="imag">Click me</span>
+    <script>
+        let button = () => {
+        let print = document.createElement("img");
+        print.src = "https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1718841600&semt=sph";
+
+        document.body.appendChild(print);
+        
+        print.addEventListener("click",() => {
+            console.log('Image Button clicked');
+        });
+    };
+        let spanButton = document.getElementById('imag');
+        spanButton.addEventListener('click',button);
+    </script> -->
+    <!-- !!Second other!! -->
+
+    <!-- <button id="imag">Нажми меня</button>
+    <p id="result"></p>
+    <script> 
+        let number = 0;
+        let save = document.getElementById('imag');
+    
+        save.onclick = () => {
+            number++;
+            document.getElementById('result').innerHTML = number ;
+        };
+
+    </script> -->
+    <!-- a treia parte -->
+    <!-- <input type="text" id="demo">
+    <p id="result"></p>
+    <script>
+        let save = document.getElementById('demo');
+        save.onkeypress = () =>{
+            if (event.key === 'p'){
+            document.getElementById('result').innerHTML = "Fuck You";
+            document.getElementById('result').style.backgroundColor = "red";
+        } else {
+            document.getElementById('result').innerHTML = "Fuck You Not P";
+        }
+        }
+    </script> -->
+    <!-- Check keypress -->
+     <!-- This is how teacher did (check daca fiecare input este completat!)
+        <form id="myForm" action="">
+        <label for="name">Nume</label>
+        <input class="input" type="text" id="name">
+
+        <label for="surname">Prenuume</label>
+        <input class="input" type="text" id="surname">
+
+        <label for="address">Addressa</label>
+        <input class="input" type="text" id="address">
+
+        <label for="birthdate">Ziua de nastere</label>
+        <input class="input" type="text" id="birthdate">
+
+        <label for="email">Email</label>
+        <input class="input" type="text" id="email">
+
+        <input class="input" type="submit" value="Inregistreazate!">
+
+     </form>
+     <div id="result"></div>
+     <script>
+        const form = document.getElementById('myForm');
+        const inputs = document.querySelectorAll('.input');
+
+        form.addEventListener('submit', function(event) {
+            let countEmptyInputs = 0;
+
+            inputs.forEach(item => {
+                if(item.value.length === 0 ) {
+                    item.style.border = '1px solid red';
+                    countEmptyInputs++;
+                }else {
+                    item.style.border = '1px solid green';
+                }
+            });
+            if (countEmptyInputs !==0) {
+                event.preventDefault();
+                document.getElementById('result').innerText = "Please fill out all fields.";
+            }else if (countEmptyInputs === 0 ) {
+                document.getElementById('result').innerText = "You filled it out";
+                
+            }
+        });
+     </script> -->
+    
+</body>
+</html>

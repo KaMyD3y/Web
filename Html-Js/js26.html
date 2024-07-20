@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <!-- <p id="result"></p>
+    <script>
+        let site = {
+            name:'tekwill academy',
+        };
+        site.welcome = function() {
+            console.log('Welcome to Tekwill!');
+        };
+        document.getElementById('result').innerHTML = site.name;
+        document.getElementById('result').innerHTML = site.welcome();
+    </script> -->
+    <!-- Shortland of methods -->
+    <!-- <p id="result"></p>
+    <script>
+        let site =  {
+            name: 'Tekwill academy!',
+            welcome() {
+                //console.log('Welcome to Tekwill');
+                console.log(this.name);
+            }
+        };
+        document.getElementById('result').innerHTML = site.welcome();
+    </script> -->
+    <!-- <script>
+        function hello () {
+            console.log("Hello world!");
+        };
+        hello()
+        let great = hello;
+        great()
+    </script> -->
+    <!-- <p id="result"></p>
+    <script>
+        const newSistem = { make: 'techila' , model: 'laptop', year:2002};
+        //console.log('make' in newSistem);
+        //document.getElementById('result').innerHTML = 'make' in newSistem;
+        for (let key in newSistem) {
+            const value = newSistem[key];
+            document.getElementById('result').innerHTML += key + ':' + value + '<br>';
+
+        }
+        for (element in newSistem) {
+
+            document.getElementById('result').innerHTML += element +'<br>';
+        }
+    </script> -->
+    <!-- <script>
+        const newSistem = { make: 'techila' , model: 'laptop', year:2002};
+        for (element in newSistem){
+            console.log(element);
+        }
+    </script> -->
+    <!-- <p id="result"></p>
+    <p id="result1"></p>
+    <p id="result2"></p>
+    <script>
+        const newSistem = { make: 'techila' , model: 'laptop', year:2002};
+        //document.getElementById('result').innerHTML = Object.keys(newSistem);
+        let someObject = () => {
+            const change = newSistem;
+            document.getElementById('result').innerHTML = Object.keys(newSistem);
+            document.getElementById('result1').innerHTML = Object.keys(change);
+        }
+        someObject();
+        let someObject1 = (some) => {
+            document.getElementById('result2').innerHTML = Object.keys(some);
+        }
+        someObject1({id:'some',model:'lux',suma:'23000'});
+        
+    </script> -->
+    <!-- <p id="result"></p>
+    <script>
+        const iterablObjects = {id:'123', name:'Mihail',house:'Flat',color:'white' };
+        let someObject = () => {
+            document.getElementById('result').textContent = Object.getOwnPropertyNames(iterablObjects);
+            console.log(Object.getOwnPropertyNames(iterablObjects));
+        }
+        someObject();
+    </script> -->
+    <!-- <h1 id="result"></h1>
+    <p style="color:red;" id="result1"></p>
+    <script>
+        let iterableObjects = {id:'234', name:'Mihail',class:'Junior'}
+        let someIterable = () => {
+            document.getElementById('result').innerHTML = Object.values(iterableObjects);
+        }
+        someIterable();
+        let someObjectsIterable = () => {
+            for (const[key,value] of Object.entries(iterableObjects)) {
+                document.getElementById('result1').innerHTML += `${key}: ${value}: <br>`;
+            }
+        }
+        someObjectsIterable();
+    </script> -->
+    <!-- <h2 id="result"></h2>
+    <p id="check"></p>
+    <script>
+        const someArr = [
+        ['1','a'],
+        ['2','b'],
+        ['3','c'],
+        ];
+        console.log(someArr);
+        let transArr = () => {
+           let transform = Object.fromEntries(someArr);
+           console.log(transform);
+           let objectString = "";
+           for (let [key,value] in transform) {
+                objectString += `${key} : ${objectString[value]}<br>`;
+           }
+           document.getElementById('check').innerHTML = objectString;
+
+           for (const[key,value] of (someArr)){
+           document.getElementById('result').innerHTML +=`${key}  ${value} :<br>`;}
+        };
+        transArr();
+    </script> -->
+    <!--change detail-->
+    <!-- <script>
+        
+        let someObject = {
+            name: 'Mihail',
+            lastName: 'Crigan',
+            likeJs: true,
+            occupation: 'studend',
+        };
+        //schimbam locul
+        let changeObject = (object) => {
+            const convetdObject = {};
+            for (const[key,value] of Object.entries(object)){
+                convetdObject[value]= key;
+            }
+            return convetdObject;
+        }
+        let changeAnother = (object) => {
+            return Object.entries(object).reduce((element,[key,value]) =>{
+                element[value] = key;
+                
+                return element;
+            },{});
+        }
+        //copiem dintrun obiect in altul !
+        let cars = {
+            name:'BMW',
+            model:'M5'
+        };
+        let saveAndChange = (object) =>{
+            let clonedObj = {};
+            for(let key in object){
+                clonedObj[key] = object[key];
+                
+            }
+            console.log(clonedObj);
+            clonedObj.name = "FIAT";
+            console.log(clonedObj.name);
+
+        };
+        saveAndChange(cars);
+        
+    </script> -->
+    <!--In one-->
+    <!-- <script>
+        const dateOne = {a: 2, b: 3};
+        const dateTwo = {c: 4 , b: 1};
+        let mixToOne = () => {
+            let target = Object.assign(dateOne,dateTwo);
+            console.log(target)
+            console.log(dateOne)
+        }
+        mixToOne();
+        const dateOne1 = {a: 2, b: 3 , d: 5};
+        const dateTwo1 = {c: 4 , b: 1};
+        let mixToOne1 = (object1,object2) => {
+            let target = Object.assign(object1,object2);
+            console.log(target);
+            console.log(object1);
+
+        }
+        mixToOne1(dateOne1,dateTwo1);
+
+    </script> -->
+    <!--Schimbarea datelor inautru-->
+    <!-- <script>
+        let myObj = () => {
+            let myObject = {
+                a: 7 ,
+                get b() {
+                    return this.a + 1;
+                },
+                set c(x) {
+                    this.a = x/2;
+                },
+            };
+            return myObject;
+        };
+        console.log(myObj().b);
+        let objInstance = myObj();
+        console.log(objInstance.b);
+        objInstance.c = 10;
+        console.log(objInstance.b);
+        console.log(objInstance.c);
+        console.log(objInstance);
+    </script> -->
+    <!--Getter and Setter-->
+    <!-- <script>
+        let students = () => {
+            const stundent = {
+                firstName:'Mihail',
+                get getName(){
+                    return this.firstName;
+                },
+                set changeName(newName) {
+                    this.firstName = newName;
+                },
+            };
+            return stundent;
+        };
+        console.log(students.firstName);
+        let safe = students();
+        console.log(safe);
+        console.log(safe.firstName);
+        console.log(safe.getName);
+        safe.changeName = 'Sarah';
+        console.log(safe.firstName);
+        console.log(safe);
+
+    </script> -->
+    <!--compararea!-->
+    <!-- <script>
+        let checkSome = () => {
+            let fruit = {name: 'appple'};
+            let fruitBear = {name: 'apple'};
+            console.log(fruit == fruitBear);
+            console.log(fruit === fruitBear);
+            let fruit1 = {name: 'appple'};
+            let fruitBear1 = fruit1;
+            console.log(fruit1 === fruitBear1);
+            fruitBear1.name = 'banana';
+            console.log(fruit1 === fruitBear1);
+            console.log(fruit1);
+        };
+        checkSome();
+    </script> -->
+    <!-- <script>
+        const book = {
+            title:'Harry Potter',
+            author:'J.K.Rowling',
+            pages:400,
+            currentPages:55,
+        };
+        let readHowMany = () =>{
+           let object1 = {
+            title:'Harry Potter',
+            author:'J.K.Rowling',
+            pages:400,
+            currentPages:55,
+            get howMany() {
+                return this.pages - this.currentPages;
+            },
+            get procente() {
+                return (this.currentPages / this.pages) * 100;
+            },
+            get isRead(){
+                return this.pages === this.currentPages;
+            }
+           };
+           return object1;
+        };
+        let safe = readHowMany();
+        console.log(`Au mai ramas ${safe.howMany} au fost citite ${safe.currentPages} , in procente ${safe.procente} %, daca e citita! ${safe.isRead}`);
+    </script> -->
+    <!-- <script>
+        const book = {
+            title:'Harry Potter',
+            author:'J.K. Rowling',
+            pages:300,
+            currentPage:1,
+            read: function(numPages) {
+                this.currentPage += numPages;
+                console.log(`Reading ${numPages} pages`);
+            },
+            checkPage: function() {
+                console.log(`Current page is: ${this.currentPage}`);
+            },
+            checkPercentage:function(){
+                console.log(`${(this.currentPage / this.pages)*100}%`);
+            },
+            isRead: function(){
+                return this.currentPage === this.pages;
+            }
+        };
+        book.read(10);
+        book.checkPage();
+        book.checkPercentage();
+        console.log(book.isRead());
+    </script> -->
+    <!-- <script>
+        const rectangle = {
+            width: 0,
+            height:0,
+            set widthValue (value) {
+                if (value >=0 ){
+                    this.width = value;
+                }
+            },
+            set heightValue(value){
+                if (value >= 0 ) {
+                    this.height = value;
+
+                }
+            },
+            get widthValue (){
+                return this.width;
+            },
+            get heightValue(){
+                return this.height;
+            },
+            get perimeter(){
+                return (this.widthValue + this.heightValue) * 2;
+            },
+            get area (){
+                return this.widthValue * this.heightValue;
+            }
+        };
+        const save = rectangle;
+        console.log(save);
+        console.log(save.height = 100);
+        console.log(save.width = 30);
+        console.log(save.area);
+        console.log(save.perimeter);
+        console.log(save.widthValue = 50);
+        console.log(save.heightValue = 50);
+        console.log(save.area);
+        console.log(save.perimeter);
+    </script> -->
+    <script>
+        let programing = {
+            languages: ["JavaScript", "Python" , "Ruby"],
+            isChallenging:true,
+            isRewarding:true,
+            difficulty:8,
+            jokes:"http://google.com",
+        };
+        let change = (object) => {
+            object.languages[-1] = "Go";
+            console.log(object)
+            object.languages.push("Lol");
+            console.log(object);
+            object.difficulty = 7 ;
+            object.difficulty -= 1;
+            delete object.jokes;
+            object["isFan"] = true;
+            object.isTrue = false;
+            object.languages.forEach((key) => console.log(key));
+            for (let i = 0 ; i<programing.languages.length; i++){
+                console.log(programing.languages[i]);
+            }
+            for (let [item,values] of Object.entries(object)){
+                console.log(item,values);
+                console.log(`${item}: ${values}`)
+            };
+            console.log(Object.values(object));
+            console.log(Object.keys(object));
+            console.log(object);
+            
+        };
+        change(programing);
+
+    </script>
+
+</body>
+</html>

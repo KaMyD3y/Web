@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS-js/js25.css">
+    <title>Document</title>
+    <style>
+          h3 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Car -->
+    <!-- <form class="form" id="carForm" action="">
+        <div>
+            <label for="make">Masina: </label>
+            <input type="text" id="make" placeholder="Masina">
+            <label for="model">Modelul: </label>
+            <input type="text" id="model"  placeholder="Model"> <br>
+            <label for="year">Year: </label>
+            <input type="text" id="year" placeholder="Anul">
+            <label for="color">Culoarea: </label>
+            <input type="text" id="color" placeholder="Color"><br>
+            <input class="submit" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script>
+
+        const form = document.getElementById('carForm');
+        const carMake = document.getElementById('make');
+        const carModel = document.getElementById('model');
+        const carYear = document.getElementById('year');
+        const carColor = document.getElementById('color');
+
+        form.addEventListener('submit' , (event) =>{
+            event.preventDefault();
+
+            const carData = {
+                Car : [{
+                    make: carMake.value},{
+                    model: carModel.value},{
+                    year: carYear.value},{
+                    color: carColor.value
+                }]
+            };
+            console.log(carData);
+        });
+    </script>
+    
+    <div id="divInfo">
+        <button class="carStart" id="start">Start</button>
+        <button class="carDrive" id="drive">Drive</button>
+        <button class="carStop" id="stop">Stop</button>
+        <button class="carHonk" id="honk">Honk</button>
+        <p id="p"></p>
+    </div>
+    <script>
+        const carInfo = document.getElementById('divInfo');
+        const carStart = document.getElementById('start');
+        const carDrive = document.getElementById('drive');
+        const carStop = document.getElementById('stop');
+        const carHonk = document.getElementById('honk');
+        const para = document.getElementById('p');
+
+        carInfo.addEventListener('click', (event) => {
+            if (event.target === carStart) {
+                para.textContent = 'Masina sa pornit';
+            } else if (event.target === carDrive) {
+                para.textContent = 'Masina se conduce';
+            } else if (event.target === carStop) {
+                para.textContent = 'Masina sa oprit';
+            } else if (event.target === carHonk) {
+                para.textContent = 'Masina claxoneaza';
+            }
+        });
+    </script>  -->
+    <!-- Mincarea -->
+    <!-- <img src="https://assets.protv.md/articles/files/thumbs/900x/2020/04/08/24726-15863501024vr1t2f.jpeg"
+     alt="Not Found 404" width="100" height="100">
+     <ol>
+        <li>Zeama ceva bun</li>
+     </ol>
+    <br>
+    <button id="ing">Mai multe</button>
+    <div id="ingredientsContainer" class="moveRight inline"></div>
+    <script>
+        const arrNew = {
+            Zeama: [{
+                Ingredients: ["Morcov", "Ceapa", "Rosie", "Carne", "Mirodenii", "Taietai"],
+                Serves: 2,
+            }]
+        };
+        const carShow = document.getElementById('ing');
+        const ingredientsContainer = document.getElementById('ingredientsContainer');
+        
+        carShow.addEventListener('click' , ()=>{
+            const ingredientsList = document.createElement('ol');
+            arrNew.Zeama[0].Ingredients.forEach(ingredient => {
+                const listItem = document.createElement('li');
+                listItem.textContent = ingredient;
+                ingredientsList.appendChild(listItem);
+            });
+            ingredientsContainer.appendChild(ingredientsList);
+            ingredientsContainer.style.display = 'inline-block';
+        });
+    </script> -->
+    <!-- Books -->
+    <!-- <button id="showBooksButton">Show All Books</button>
+    <button id="showReadBooksButton">Show Read Books</button>
+    <button id="showUnreadBooksButton">Show Unread Books</button>
+    <div id="bookCategoriesContainer" class="moveRight1 inline"></div>
+    <script>
+        
+    const likeBook = [
+    {
+        category: "Horror",
+        books: [
+            {
+                Name: "Pet Sematary",
+                Author: "Stephen King",
+                ReadOnly: "No"
+            },
+            {
+                Name: "It",
+                Author: "Stephen King",
+                ReadOnly: "No"
+            },
+            {
+                Name: "ABC-ul Psihopatului de Succes",
+                Author: "Kevin Dutton",
+                ReadOnly: "Yes"
+            }
+        ]
+    }];
+    const showBooksButton = document.getElementById('showBooksButton');
+    const showReadBooksButton = document.getElementById('showReadBooksButton');
+    const showUnreadBooksButton = document.getElementById('showUnreadBooksButton');
+    const bookCategoriesContainer = document.getElementById('bookCategoriesContainer');
+
+    function showBooks(filter) {
+        bookCategoriesContainer.innerHTML = '';
+
+        likeBook.forEach(category => {
+            const categoryTitle = document.createElement('h3');
+            categoryTitle.textContent = category.category;
+            bookCategoriesContainer.appendChild(categoryTitle);
+
+            const booksList = document.createElement('ul');
+            category.books.forEach(book => {
+                if (filter === 'all' || (filter === 'read' && book.ReadOnly === 'Yes') || (filter === 'unread' && book.ReadOnly === 'No')) {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `Name: ${book.Name}, Author: ${book.Author}, Read Only: ${book.ReadOnly}`;
+                    booksList.appendChild(listItem);
+                }
+            });
+            bookCategoriesContainer.appendChild(booksList);
+        });
+
+        bookCategoriesContainer.style.display = 'inline-block';
+    }
+
+
+    showBooksButton.addEventListener('click', () => showBooks('all'));
+    showReadBooksButton.addEventListener('click', () => showBooks('read'));
+    showUnreadBooksButton.addEventListener('click', () => showBooks('unread'));
+
+    </script> -->
+    <!-- <button class="start" id="start">Start</button>
+    <button class="drive" id="drive">Drive</button>
+    <button class="stop" id="stop">Stop</button>
+    <button class="honk" id="honk">Honk</button>
+    <h1 id="status"></h1>
+    <script>
+
+        const carStart = document.getElementById('start');
+        const carDrive = document.getElementById('drive');
+        const carStop = document.getElementById('stop');
+        const carHonk = document.getElementById('honk');
+        const statusElement = document.getElementById('status');
+
+        carStart.addEventListener('click', () => {
+            statusElement.textContent = "The car is starting";
+        });
+
+        carDrive.addEventListener('click', () => {
+            statusElement.textContent = "The car is driving";
+        });
+
+        carStop.addEventListener('click', () => {
+            statusElement.textContent = "The car is stopping";
+        });
+
+        carHonk.addEventListener('click', () => {
+            statusElement.textContent = "Honk Honk!";
+        });
+    </script> -->
+    <!-- <script>
+        let car = {
+            make: 'ToyoTa',
+            model: 'Camry',
+            year: '2020',
+            color: 'Red',
+            start: function(){
+                console.log('The car is starting');
+            },
+            drive: function(){
+                console.log('The car is driving');
+            },
+            stop: function(){
+                console.log('The car is stoPPed');
+            },
+            honk: function(){
+                console.log('Honk Honk!');
+            }
+        };
+    </script> -->
+    <!-- <script>
+         let recipe = () => {
+            let some = {
+                'title': 'Mole',
+                'servings': 2 ,
+                'ingredients': ['cusmin','cinnamon','coca']
+            };
+            console.log(some.title);
+            console.log('Servings ' + some.servings);
+            console.log('ingredients');
+            for (var i = 0; i <some.ingredients.length; i++) {
+                console.log(some.ingredients[i]);
+            }
+         };
+        recipe();
+    </script> -->
+    <!-- <script>
+        let books = [
+            {
+                title: 'Evanghelion',
+                author: 'Marina',
+                alreadyRead: false
+            },
+            {
+                title: 'You my',
+                author: 'Kyle simpson',
+                alreadyRead: true
+            },
+            ];
+            for(let i = 0; i<books.length; i++){
+                const book = books[i];
+                const bookInfo = `${book.title} by ${book.author}`;
+
+                if (book.alreadyRead){
+                    console.log('You already read "' + bookInfo );
+                }else{
+                    console.log('You still need to read "' + bookInfo);
+                }
+            };
+    </script> -->
+</body>
+</html>
